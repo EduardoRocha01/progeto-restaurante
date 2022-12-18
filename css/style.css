@@ -1,0 +1,172 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: 'to';
+    src: url('../font/annabel1.otf') format('opentype');
+    
+}
+@font-face {
+    font-family: 'ta';
+    src: url('../font/Theater\ Brillion\ DEMO.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'bistro';
+    src: url(../font/Bistro.ttf) format('truetype');
+    width: normal;
+    height: normal;
+}
+
+/*configurações gerais*/
+body{
+    background-image: url('../imagem/fundo-restaurante.webp');
+}
+
+main{
+    height: 1000px;
+}
+
+section{
+
+    height: 600;
+    width: 1036;
+
+}
+
+#cardapio{
+    background-image:url('../imagem/fundo-papel-antigo-removebg-preview.png');
+    background-position:right 5px;
+    color: rgb(0, 0, 0);
+    text-shadow: 50px;
+    margin: -572px 0px 28px 509px;
+    height: 422px;
+    width: 500px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: bistro, Helvetica, sans-serif;
+    list-style: none;
+    
+}
+
+#cardapio > h1{
+    text-align: center;
+    font-family: to;
+}
+
+#img{
+    display: inline-block;
+}
+/*trabalhos no header*/
+
+#titulo{
+    color:white;
+    height: 5px;
+    width: 5px;
+    font-family:to;
+    font-size: 40px;
+    margin-left: 1081px;
+    margin-top: 5px;
+    text-shadow: 5px black;
+}
+
+header > h1{
+    font-family: to;
+}
+
+.menux{
+    margin:-9px 5px 5px -8px;
+    color: white;
+    list-style:circle;
+    border: 10px 10px 10px brown;
+
+}
+
+
+
+/*movimentação de imagens*/
+
+#img1{
+    height: 362px;
+    width: 283px;
+    margin: 0px 6px 25px 1013px;
+
+}
+#img2{
+    height: 500px;
+    width: 490px;
+    margin:-318px 5px 7px 9px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px black;
+}
+
+/*#img3{
+    height: 230px;
+    width: 500px;
+    margin: -335px 5px 7px 0px;
+    border-radius:12px 17px 15px 22px;
+}*/
+
+#img4{
+    height: 194px;
+    width: 328px;
+    margin: -319px -8px 24px 1009px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+
+#img5{
+    height: 194px;
+    width: 328px;
+    margin: -319px -8px -133px 135px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+    border-color: aqua;
+}
+/*class*/
+
+.menu{
+    font-family: bistro;
+    background-color: white;
+    font-size: 25px;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
+    border color: 50px blue;
+    
+
+}
+
+.itemdocardapio{
+    list-style:'❍';
+}
+
+#m1:hover{
+     color: blue;
+     background-color: aquamarine;
+}
+#m2:hover{
+    color: blue;
+    background-color: aquamarine;
+}
+
+#m3:hover{
+    color: blue;
+    background-color: aquamarine;
+}
+
+
+#sub1 > li{
+    display: none;
+    list-style: circle;
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+#b1:hover > #sub1 > li{
+    display: inline-block;
+
+
+}
